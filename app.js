@@ -23,7 +23,7 @@ mongoose.connect(url)
 app.use(express.json());
 app.use(cors(
     {
-    origin:['http://localhost:3000'],
+    origin:['http://localhost:3000','https://optimistic-raman-528183.netlify.app'],
     credentials:true
     },
 ))
