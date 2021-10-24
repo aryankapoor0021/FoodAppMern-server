@@ -19,7 +19,7 @@ mongoose.connect(url)
         console.log(err);
     });
 
-//seedDB()
+seedDB()
 app.use(express.json());
 app.use(cors(
     {
